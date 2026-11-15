@@ -2,6 +2,11 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+#modeling
+import sys
+sys.path.append('.')  # pastikan Python tahu folder yang sama
+import modeling
+
 # Judul aplikasi
 st.title('Analisis Churn Pelanggan')
 
